@@ -164,3 +164,25 @@ body{
     background: linear-gradient(135deg, #1e88e5, #42a5f5);
 }
 
+.vimi {
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 5px 5%;
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+}
+
+.vimi h1 {
+    padding-top: 70px;
+}
+
+.Visi {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.Visi h3, p {
+    text-align: justify;
+}
