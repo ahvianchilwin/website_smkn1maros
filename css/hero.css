@@ -1,0 +1,23 @@
+/* HERO */
+.hero {
+    background: url("/images/upacara.png") center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0b5dd7;
+    color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+

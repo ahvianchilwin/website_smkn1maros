@@ -1,0 +1,42 @@
+.main-footer  img {
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.second-footer {
+    width: 80%;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    text-align: justify;
+}
+
+.section-footer {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.section-footer h2 {
+    margin-bottom: 15px;
+}
+
+.section-footer p {
+    margin-bottom: 10px;
+    max-width: 700px;
+    gap: 100px;
+}
+
+.social-icon {
+    font-size: 30px;  
+    margin: 0 10px;
+    transition: 0.3s; 
+}
+
+.social-icon:hover {
+    color: #ffffff; 
+    transform: scale(1.5);
+}
+
