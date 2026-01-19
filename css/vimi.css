@@ -49,9 +49,8 @@
 }
 
 .Misi ol {
-    text-align: center;
-    text-align: justify;
-    max-width: 1080px;
-    padding-left: 150px;
-    padding-bottom: 30px;
+    display: inline-block; 
+    text-align: justify;      
+    list-style-position: inside;
+    max-width: 1000px;
 }
