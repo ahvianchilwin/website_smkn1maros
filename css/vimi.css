@@ -1,0 +1,30 @@
+.parallax {
+  background-image: url("/images/background-dark.jpeg");
+  min-height: 200px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vimi {
+    color: whitesmoke;
+    padding: 5px 5%;
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+}
+
+.vimi h1 {
+    padding-top: 70px;
+}
+
+.Visi {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.Visi h3, p {
+    text-align: justify;
+}

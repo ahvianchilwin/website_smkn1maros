@@ -1,0 +1,87 @@
+/*BODY*/
+.parallax {
+  background-image: url("/images/background-dark.jpeg");
+  min-height: 300px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;      
+    gap: 100px;                
+    padding: 50px;
+}
+
+.about-image img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.about-text {
+    color: white;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.about-text h2 {
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2a8ffc;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/**/
+.statistik {
+    display: flex;
+    width: 100%;
+}
+
+.stat-box {
+    text-align: center;
+    width: 33.33%;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.stat-box i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.stat-box h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.stat-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.w-1 {
+    background: linear-gradient(135deg, #0d47a1, #1976d2);
+}
+
+.w-2 {
+    background: linear-gradient(135deg, #1565c0, #1e88e5);
+}
+
+.w-3 {
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+}
