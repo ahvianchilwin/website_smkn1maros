@@ -22,9 +22,33 @@
 .Visi {
     color: whitesmoke;
     text-align: center;
-
+    padding: 25px 5%;
+    padding-left: 5%;
 }
 
-.Visi h3, p {
+.Visi h3 {
+    text-align: center;
+    font-size: 50px
+}
+
+.Visi p {
+    font-size: 20px;
+}
+
+.Misi {
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px 5%;
+    padding-left: 5%;
+}
+
+.Misi h3 {
+    font-size: 50px;
+}
+
+.Misi ol {
     text-align: justify;
+    max-width: 1080px;
+    padding-left: 150px;
+    padding-bottom: 20px;
 }
