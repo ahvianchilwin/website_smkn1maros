@@ -6,3 +6,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.to {
+    color: whitesmoke;
+    padding: 5px 5%;
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+}
+
+.to h1 {
+    padding-top: 70px;
+}
