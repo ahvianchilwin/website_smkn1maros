@@ -86,6 +86,15 @@ body{
 }
 
 /*BODY*/
+.parallax {
+  background-image: url("/images/background-dark.jpeg");
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .about-section {
     display: flex;
     align-items: center;      
@@ -111,7 +120,7 @@ body{
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: white;
+    background-color: #2a8ffc;
     color: black;
     text-decoration: none;
     border: none;
