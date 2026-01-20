@@ -1,7 +1,7 @@
 /* HERO */
 .hero {
     background: url("/images/upacara.png") center/cover no-repeat;
-    height: 400px;
+    height: 90vh;
     display: flex;
     align-items: center;
     padding: 40px;
