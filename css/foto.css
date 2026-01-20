@@ -40,17 +40,6 @@
     transform: scale(1.05);
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.colomn{
-    float: left;
-    width: 25%;
-}
-
 img.hover-shadow {
     transition: 0.3s;
 }
@@ -79,7 +68,7 @@ img.hover-shadow {
 .lightbox p {
     color: #fff;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 50px;
 }
 
 .close {

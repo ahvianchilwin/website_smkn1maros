@@ -12,7 +12,7 @@ window.onclick = function(e) {
 }
 
 const images =
-document.querySelectorAll('.gallery img');
+document.querySelectorAll('.row img');
 const lightbox =
 document.getElementById('lightbox');
 const lightboxImg =
