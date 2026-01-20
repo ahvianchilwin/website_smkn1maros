@@ -10,3 +10,32 @@ window.onclick = function(e) {
     }
   }
 }
+
+const images =
+document.querySelectorAll('.gallery img');
+const lightbox =
+document.getElementById('lightbox');
+const lightboxImg =
+document.getElementById('lightbox-img');
+const caption =
+document.getElementById('lighbox-caption');
+const closeBtn =
+document.querySelector('.close');
+
+images.forEach(img => {
+    img.addEventListener('click', () => {
+        lightbox.style.display = 'flex';
+        lightboxImg.src = img.src;
+        caption.textContent = img.CDATA_SECTION_NODE.caption;    
+    });
+});
+
+closeBtn.addEventListener('click', () => {
+    lightbox.style.display = 'none';    
+});
+
+lightbox.addEventListener('click', (e) => {
+    if (e.taget === lightbox) {
+        lightbox.style.display = 'none';
+    }
+});
