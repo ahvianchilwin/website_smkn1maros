@@ -18,7 +18,7 @@ document.getElementById('lightbox');
 const lightboxImg =
 document.getElementById('lightbox-img');
 const caption =
-document.getElementById('lighbox-caption');
+document.getElementById('data-caption');
 const closeBtn =
 document.querySelector('.close');
 
@@ -26,7 +26,7 @@ images.forEach(img => {
     img.addEventListener('click', () => {
         lightbox.style.display = 'flex';
         lightboxImg.src = img.src;
-        caption.textContent = img.CDATA_SECTION_NODE.caption;    
+        caption.textContent = img.dataset.caption;    
     });
 });
 
