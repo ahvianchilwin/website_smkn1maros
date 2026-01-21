@@ -21,8 +21,9 @@
 
 /*Body*/
 .row > .colomn {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
     padding: 20px;
 }
@@ -33,7 +34,19 @@
     object-fit: cover;
     border-radius: 6px;
     cursor: pointer;
-    transition: transform 0,3s ease;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .gallery img {
+    width: calc(50% - 15px);
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery img {
+    width: 100%;
+  }
 }
 
 .row img:hover {
@@ -52,8 +65,8 @@ img.hover-shadow {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgb(0,0,0,0.8);
-    z-index: 999;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -67,8 +80,9 @@ img.hover-shadow {
 
 .lightbox p {
     color: #fff;
-    margin-top: 10px;
-    font-size: 50px;
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center
 }
 
 .close {
@@ -76,6 +90,6 @@ img.hover-shadow {
     top: 20px;
     right: 30px;
     color: #fff;
-    font-size: 30px;
+    font-size: 32px;
     cursor: pointer;
 }
