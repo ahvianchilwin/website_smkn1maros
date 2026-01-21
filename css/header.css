@@ -74,7 +74,7 @@
 .dropbtn:hover, .menu a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: #2a8ffc;
-    transform: translateY(-2px); 
+    transform: translateY(-3px); 
 }
 
 .dropdown:hover .fa-caret-down {
@@ -93,7 +93,7 @@
   border: none;
   outline: none;
   color: #1e3a8a;
-  padding: 14px 16px;
+  padding: 15px 15px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -103,22 +103,39 @@
   display: none;
   position: absolute;
   background-color: #f5f7fa;
-  min-width: 160px;
+  min-width: 200px;
   position: fixed;
   z-index: 1;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  animation: fadeIn 0.3s ease-in-out;
+  border-top: 5px solid #2a8ffc;
+  border-radius: 8px;
 }
 
 .dropdown-content a {
   float: none;
   color: #1e3a8a;
-  padding: 12px 16px;
+  padding: 12px 20px;
   text-decoration: none;
   display: block;
   text-align: left;
+}
+
+.dropdown-content a::after {
+  text-decoration: none;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
