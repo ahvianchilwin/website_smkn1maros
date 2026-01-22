@@ -19,29 +19,49 @@
     padding-top: 70px;
 }
 
+/*Body*/
 .galeri-section {
     padding: 50px 20px;
     text-align: center;
 }
 
+.galeri-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .video.grid {
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-    grid-template-columns: 1fr, 1fr;
+    float: left;
     gap: 20px;
-    padding: 20px;
+    padding: 0 4px;
+}
+
+.video-item {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.video-grid:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .video-item iframe {
-    width: 100%;
-    height: 250px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 600px;
+    height: 350px;
     border-radius: 8px;
-    border: 2px solid #0044cc;
+    border: 2px solid #333;
 }
 
 .video-item p {
-    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
 }
