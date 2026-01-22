@@ -16,6 +16,7 @@
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 999;
 }
 
 .logo img {
@@ -107,7 +108,7 @@
   position: fixed;
   z-index: 1;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  animation: fadeIn 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
   border-top: 5px solid #2a8ffc;
   border-radius: 8px;
 }
@@ -143,7 +144,7 @@
 /* HERO */
 .hero {
     background: url("/images/upacara.png") center/cover no-repeat;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     padding: 40px;
@@ -153,6 +154,7 @@
 .hero-text {
     max-width: 700px;
     font-size: 25px;
+    animation: fadeIn1 2s ease-in-out;
 }
 
 .btn {
@@ -162,6 +164,17 @@
     padding: 10px 16px;
     text-decoration: none;
     margin-top: 10px;
+}
+
+@keyframes fadeIn1 {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /*BODY*/
@@ -182,14 +195,17 @@
 }
 
 .about-image img {
-    width: 450px;
+    width: 510px;
+    height: 350px;
     border-radius: 10px;
+    animation: fadeIn2 1.5s ease-in-out;
 }
 
 .about-text {
     color: white;
     max-width: 800px;
     text-align: justify;
+    animation: fadeIn3 1.5s ease-in-out;
 }
 
 .about-text h2 {
@@ -210,6 +226,28 @@
 
 .button:hover {
     background-color: #0056b3;
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn3 {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /*Stat-Box*/
@@ -236,7 +274,7 @@
 }
 
 .stat-box p {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.6;
 }
 
@@ -252,6 +290,7 @@
     background: linear-gradient(135deg, #1e88e5, #42a5f5);
 }
 
+/*FOOTER*/
 .footer {
     background-color: #f5f7fa;
 }
@@ -261,6 +300,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 25px;
 }
 
 .second-footer {
