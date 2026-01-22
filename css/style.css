@@ -7,7 +7,7 @@
 
 /*HEADING*/
 .navbar {
-    background-color: #27374D; 
+    background-color: #f5f7fa; 
     display: flex;             
     justify-content: space-between;
     align-items: center;       
@@ -24,7 +24,7 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #27374D;
+  background-color: #f5f7fa;
   font-family: Poppins;
 }
 
@@ -32,7 +32,7 @@
 .navbar a {
   float: left;
   font-size: 16px;
-  color: #DDE6ED;
+  color: #1e3a8a;
   text-align: center;
   padding: 14px 16px;
   position: relative;
@@ -42,7 +42,7 @@
 
 .navbar a:hover {
   color: #2a8ffc;
-  background-color: #27374D;
+  background-color: #f5f7fa;
 }
 
 .navbar a::after {
@@ -102,7 +102,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #27374D;
+  background-color: #f5f7fa;
   min-width: 200px;
   position: fixed;
   z-index: 1;
