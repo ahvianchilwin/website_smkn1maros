@@ -1,3 +1,4 @@
+/*PARALLAX*/
 .parallax {
   background-image: url("/images/background-dark.jpeg");
   min-height: 200px; 
@@ -17,4 +18,111 @@
 
 .to h1 {
     padding-top: 70px;
+}
+
+/*BODY*/
+.logo-to {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 5%;
+}
+
+.logo-to img {
+    width: 200px;
+    height: auto;
+}
+
+.deskripsi-to {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.deskripsi-to h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.deskripsi-to p {
+    margin-bottom: 15px;
+}
+
+.garis-1 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.kompetensi-to {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.kompetensi-to h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.kompetensi-to ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.kompetensi-to ul li {
+    margin-bottom: 10px;
+}
+
+.garis-2 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.peluang-to {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.peluang-to h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.peluang-to ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.peluang-to ul li {
+    margin-bottom: 10px;
+}
+
+.garis-3 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
 }
