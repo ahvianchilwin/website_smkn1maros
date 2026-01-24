@@ -19,3 +19,109 @@
 .apat h1 {
     padding-top: 70px;
 }
+
+.logo-apat {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+
+.logo-apat img {
+    width: 250px;
+    height: auto;
+}
+
+.deskripsi-apat {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.deskripsi-apat h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.deskripsi-apat p {
+    margin-bottom: 15px;    
+}
+
+.garis-1 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.kompetensi-apat {
+    color: #333;
+    padding: 20px 10%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.kompetensi-apat h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.kompetensi-apat ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.kompetensi-apat ul li {
+    margin-bottom: 10px;
+}
+
+.garis-2 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.peluang-apat {
+    color: #333;
+    padding: 20px 10%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.peluang-apat h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.peluang-apat ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.peluang-apat ul li {
+    margin-bottom: 10px;
+}
+
+.garis-3 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
