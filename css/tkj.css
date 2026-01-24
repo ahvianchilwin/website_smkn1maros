@@ -18,3 +18,109 @@
 .tkj h1 {
     padding-top: 70px;
 }
+
+.logo-tkj {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
+
+.logo-tkj img {
+    width: 250px;
+    height: auto;
+}
+
+.deskripsi-tkj {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.deskripsi-tkj h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.deskripsi-tkj p {
+    margin-bottom: 15px;    
+}
+
+.garis-1 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.kompetensi-tkj {
+    color: #333;
+    padding: 20px 10%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.kompetensi-tkj h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.kompetensi-tkj ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.kompetensi-tkj ul li {
+    margin-bottom: 10px;
+}
+
+.garis-2 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.peluang-tkj {
+    color: #333;
+    padding: 20px 10%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.peluang-tkj h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.peluang-tkj ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.peluang-tkj ul li {
+    margin-bottom: 10px;
+}
+
+.garis-3 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}

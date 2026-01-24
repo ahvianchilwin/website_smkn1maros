@@ -18,3 +18,113 @@
 .rpl h1 {
     padding-top: 70px;
 }
+
+.logo-rpl {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 10px 5%;
+}
+
+.logo-rpl img {
+    width: 200px;
+    height: auto;
+}
+
+.deskripsi-rpl {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.deskripsi-rpl h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.deskripsi-rpl p {
+    margin-bottom: 15px;    
+}
+
+.garis-1 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.kompetensi-rpl {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.kompetensi-rpl h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.kompetensi-rpl ul {
+    margin-bottom: 15px;   
+    margin-left: 20px; 
+}
+
+.kompetensi-rpl ul li {
+    margin-bottom: 10px;
+}
+
+.garis-2 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
+
+.peluang-rpl {
+    color: #333;
+    padding: 20px 10%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+}
+
+.peluang-rpl h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.peluang-rpl ul {
+    margin-bottom: 15px;   
+    margin-left: 20px; 
+}
+
+.peluang-rpl ul li {
+    margin-bottom: 10px;
+}
+
+.peluang-rpl p {
+    margin-bottom: 15px;    
+}
+
+.garis-3 {
+    border: none;
+    height: 4px;
+    background-color: #535d72;
+    margin: 20px;
+    margin-bottom: 25px;
+}
