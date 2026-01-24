@@ -142,12 +142,21 @@
 
 /* HERO */
 .hero {
-    background: url("/images/upacara-1.png") center/cover no-repeat;
+    background-color: #3182ce;
     height: 80vh;
     display: flex;
     align-items: center;
     padding: 40px;
     color: rgb(255, 255, 255);
+}
+
+.about-img {
+  padding-right: 10px;
+}
+
+.about-img img {
+  height: 350px;
+  border-radius: 10px;
 }
 
 .hero-text {
