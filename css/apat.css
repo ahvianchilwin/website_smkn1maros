@@ -1,4 +1,4 @@
-/*Parallax*/
+/*APAT-Parallax*/
 .parallax {
   background-image: url("/images/background-dark.jpeg");
   min-height: 200px; 
@@ -20,6 +20,7 @@
     padding-top: 70px;
 }
 
+/*APAT-BODY*/
 .logo-apat {
     text-align: center;
     padding-top: 15px;
@@ -46,18 +47,11 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #0d47a1;
 }
 
 .deskripsi-apat p {
     margin-bottom: 15px;    
-}
-
-.garis-1 {
-    border: none;
-    height: 4px;
-    background-color: #535d72;
-    margin: 20px;
-    margin-bottom: 25px;
 }
 
 .kompetensi-apat {
@@ -74,6 +68,7 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #0d47a1;
 }
 
 .kompetensi-apat ul {
@@ -83,14 +78,6 @@
 
 .kompetensi-apat ul li {
     margin-bottom: 10px;
-}
-
-.garis-2 {
-    border: none;
-    height: 4px;
-    background-color: #535d72;
-    margin: 20px;
-    margin-bottom: 25px;
 }
 
 .peluang-apat {
@@ -107,6 +94,7 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #0d47a1;
 }
 
 .peluang-apat ul {
@@ -118,10 +106,10 @@
     margin-bottom: 10px;
 }
 
-.garis-3 {
+.garis {
     border: none;
     height: 4px;
-    background-color: #535d72;
+    background-color: #1e3a8a;
     margin: 20px;
     margin-bottom: 25px;
 }

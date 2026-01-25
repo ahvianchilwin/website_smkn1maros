@@ -1,3 +1,4 @@
+/*Vimi-Parallax*/
 .parallax {
   background-image: url("/images/background-dark.jpeg");
   min-height: 200px; 
@@ -19,65 +20,68 @@
     padding-top: 70px;
 }
 
-.Visi {
-    color: black;
+/*Vimi-Body*/
+.visi {
+    color: #333;
+    padding: 20px 10%;
     text-align: center;
-    padding: 25px 5%;
-    padding-left: 5%;
-    background-color: rgb(226, 221, 221);
-    margin: 50px 10%;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+    margin-top: 50px;
 }
 
-.Visi h3 {
+.visi h2 {
     text-align: center;
-    font-size: 50px;
-    margin-top: 15px;
-    margin-bottom: 6px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
-.Visi p {
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 5px;
+.visi p {
+    margin-bottom: 15px;    
 }
 
 .garis-1 {
     border: none;
     height: 4px;
     background-color: #535d72;
-    margin: 20px 8%; 
+    margin: 20px;
     margin-bottom: 25px;
 }
 
-.Misi {
-    color: black;
-    text-align: center;
-    padding: 25px 5%;
-    padding-left: 5%;
-    background-color: rgb(226, 221, 221);
-    margin: 50px 10%;
+.misi {
+    color: #333;
+    padding: 20px 12%;
+    text-align: left;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 5%;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
-.Misi h3 {
-    font-size: 50px;
+.misi h2 {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 6px;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
-.Misi ol {
-    display: inline-block; 
-    text-align: justify;      
-    list-style-position: inside;
-    max-width: 900px;
-    margin-bottom: 5px;
+.misi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.misi ul li {
+    margin-bottom: 10px;
 }
 
 .garis-2 {
     border: none;
     height: 4px;
     background-color: #535d72;
-    margin: 20px 5%; 
-    margin-top: 15px;
+    margin: 20px;
+    margin-bottom: 25px;
 }
