@@ -151,11 +151,11 @@
 }
 
 .about-img {
-  padding-right: 10px;
+  margin-left: 50px;
 }
 
 .about-img img {
-  height: 350px;
+  height: 250px;
   border-radius: 10px;
 }
 
