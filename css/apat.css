@@ -41,6 +41,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .deskripsi-apat h2 {
@@ -62,6 +63,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .kompetensi-apat h2 {
@@ -88,6 +90,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .peluang-apat h2 {

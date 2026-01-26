@@ -41,6 +41,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .deskripsi-to h2 {
@@ -70,6 +71,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .kompetensi-to h2 {
@@ -104,6 +106,7 @@
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 10px 5%;
+    border-radius: 10px;
 }
 
 .peluang-to h2 {
