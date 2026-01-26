@@ -36,23 +36,24 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #0d47a1;
 }
 
 .visi p {
     margin-bottom: 15px;    
 }
 
-.garis-1 {
+.garis {
     border: none;
     height: 4px;
-    background-color: #535d72;
+    background-color: #1e3a8a;
     margin: 20px;
     margin-bottom: 25px;
 }
 
 .misi {
     color: #333;
-    padding: 20px 12%;
+    padding: 20px 13%;
     text-align: left;
     text-align: justify;
     font-size: 18px;
@@ -67,6 +68,7 @@
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
+    color: #0d47a1;
 }
 
 .misi ul {
@@ -76,12 +78,14 @@
 
 .misi ul li {
     margin-bottom: 10px;
+    text-align: justify;
 }
 
-.garis-2 {
+
+.garis {
     border: none;
     height: 4px;
-    background-color: #535d72;
+    background-color: #1e3a8a;
     margin: 20px;
     margin-bottom: 25px;
 }
