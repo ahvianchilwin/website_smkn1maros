@@ -1,3 +1,4 @@
+/*Eskul-Parallax*/
 .parallax {
   background-image: url("/images/background-dark.jpeg");
   min-height: 200px; 
@@ -17,4 +18,654 @@
 
 .eskul h1 {
     padding-top: 70px;
+}
+
+/*Eskul-Body*/
+/*PASKIB*/
+.content-paskib {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-paskib h1, .logo-paskib {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-paskib h1 {
+    color: #0d47a1;
+}
+
+.body-paskib {
+    display: flex;
+    width: 100;
+}
+
+.logo-paskib img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-PASKIB*/
+.paskib {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-PASKIB*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Penghargaan-PASKIB*/
+.penghargaan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.penghargaan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.penghargaan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.penghargaan li {
+    margin-bottom: 5px;    
+}
+
+/*OSIS*/
+.content-osis {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-osis h1, .logo-osis {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-osis h1 {
+    color: #0d47a1;
+}
+
+.body-osis {
+    display: flex;
+    width: 100;
+}
+
+.logo-osis img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-OSIS*/
+.osis {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-OSIS*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-OSIS*/
+.kegiatan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan li {
+    margin-bottom: 5px;    
+}
+
+/*PMR*/
+.content-pmr {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-pmr h1, .logo-pmr {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-pmr h1 {
+    color: #0d47a1;
+}
+
+.body-pmr {
+    display: flex;
+    width: 100;
+}
+
+.logo-pmr img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-PMR*/
+.pmr {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-PMR*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 10px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-PMR*/
+.kegiatan-penghargaan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan-penghargaan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan-penghargaan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan-penghargaan li {
+    margin-bottom: 5px;    
+}
+
+/*ROHIS*/
+.content-rohis {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-rohis h1, .logo-rohis {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-rohis h1 {
+    color: #0d47a1;
+}
+
+.body-rohis {
+    display: flex;
+    width: 100;
+}
+
+.logo-rohis img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-ROHIS*/
+.rohis {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-ROHIS*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 10px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-ROHIS*/
+.kegiatan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan li {
+    margin-bottom: 5px;    
+}
+
+/*SASPAT*/
+.content-saspat {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-saspat h1, .logo-saspat {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-saspat h1 {
+    color: #0d47a1;
+}
+
+.body-saspat {
+    display: flex;
+    width: 100;
+}
+
+.logo-saspat img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-SASPAT*/
+.saspat {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-SASPAT*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 10px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-SASPAT*/
+.kegiatan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan li {
+    margin-bottom: 5px;    
+}
+
+/*PRAMUKA*/
+.content-pramuka {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-pramuka h1, .logo-pramuka {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-saspat h1 {
+    color: #0d47a1;
+}
+
+.body-pramuka {
+    display: flex;
+    width: 100;
+}
+
+.logo-pramuka img {
+    width: 200px;
+    height: auto;
+}
+
+/*Struktur-PRAMUKA*/
+.pramuka {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Vimi-PRAMUKA*/
+.vimi h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.vimi p {
+    text-align: justify;
+    margin-bottom: 10px;    
+}
+
+.vimi ul {
+    text-align: justify;
+    margin-bottom: 15px;   
+    margin-left: 20px;
+}
+
+.vimi li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-PRAMUKA*/
+.kegiatan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan li {
+    margin-bottom: 5px;    
+}
+
+.garis {
+    border: none;
+    height: 4px;
+    background-color: #0d47a1;
+    margin: 20px 5%;
 }
