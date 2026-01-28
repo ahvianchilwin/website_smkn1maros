@@ -1,25 +1,35 @@
-.parallax {
-  background-image: url("/images/background-dark.jpeg");
-  min-height: 200px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/*Video-Parallax*/
+.hero {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    text-align: center;
+    color: white;
+
+    /*Parallax*/
+    background-image: url("/images/background-dark.jpeg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .video {
-    color: whitesmoke;
-    padding: 5px 5%;
-    text-align: center;
-    font-size: 25px;
-    height: 200px;
+    position: relative;
+    z-index: 2; 
+    max-width: 800px;
+    padding: 20px;
 }
 
 .video h1 {
-    padding-top: 70px;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
 }
 
-/*Body*/
+/*Video-Body*/
 .galeri-section {
     padding: 50px 20px;
     text-align: center;
