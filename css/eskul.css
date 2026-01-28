@@ -663,9 +663,100 @@
     margin-bottom: 5px;    
 }
 
+/*FUTSAL*/
+.content-futsal {
+    color: #333;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 10px 4%;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.content-futsal h1, .logo-futsal {
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f4f4f4;
+}
+
+.content-futsal h1 {
+    color: #0d47a1;
+}
+
+.body-futsal {
+    display: flex;
+    width: 100;
+}
+
+.logo-futsal img {
+    width: 200px;
+    height: auto;
+}
+
+.deskripsi-futsal {
+    font-size: 20px;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+/*Struktur-FUTSAL*/
+.futsal {
+    padding: 20px 30px;
+    text-align: justify;
+    width: 100%;
+}
+
+.struktur h2 {
+    text-align: left;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+.struktur p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.struktur ul {
+    text-align: justify;
+    margin-bottom: 15px; 
+    margin-left: 20px;
+}
+
+.struktur li {
+    margin-bottom: 5px;    
+}
+
+/*Kegiatan-FUTSAL*/
+.kegiatan h2 {
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #0d47a1;   
+}
+
+.kegiatan p {
+    text-align: justify;
+    margin-bottom: 5px;    
+}
+
+.kegiatan ul {
+    text-align: justify;
+    margin-bottom: 15px;  
+    margin-left: 20px;  
+}
+
+.kegiatan li {
+    margin-bottom: 5px;    
+}
+
 .garis {
     border: none;
     height: 4px;
     background-color: #0d47a1;
     margin: 20px 5%;
 }
+

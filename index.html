@@ -12,85 +12,75 @@
 </head>
     
 <body>
-    <!--Header-->
     <header class="navbar">
         <div class="logo">
-            <img src="/images/logo-smk-1.png" alt="Logo SMK">
-            <img src="/images/logo-smk-2.png" alt="Logo SMK">
+            <img src="images/logo-smk-1.png" alt="Logo Kiri">
+            <img src="images/logo-smk-2.png" alt="Logo Kanan">
         </div>
-        <div class="menu">
-            <a href="/index.html">HOME</a>
+        
+        <nav class="menu">
+            <a href="index.html">HOME</a>
+            
             <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">PROFIL
-                    <i class="fa fa-caret-down"></i>
-                </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="/html/sejarah.html">SEJARAH</a>
-                <a href="/html/vimi.html">VISI & MISI</a>
-                <a href="/html/eskul.html">ORGANISASI & EKSTRAKULIKULER</a>
-                <a href="/html/saran.html">SARANA & PRASARANA</a>
+                <button class="dropbtn">PROFIL <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="html/sejarah.html">SEJARAH</a>
+                    <a href="html/vimi.html">VISI & MISI</a>
+                    <a href="html/eskul.html">ORGANISASI & ESKUL</a>
+                    <a href="html/saran.html">SARANA & PRASARANA</a>
+                </div>
             </div>
-            </div> 
-            <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">JURUSAN
-                    <i class="fa fa-caret-down"></i>
-                </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="/html/tkj.html">TEKNIK KOMPUTER DAN JARINGAN</a>
-                <a href="/html/apat.html">AGRIBISNIS PERIKANAN AIR TAWAR</a>
-                <a href="/html/rpl.html">REKAYASA PERANGKAT LUNAK</a>
-                <a href="/html/dkv.html">DESAIN KOMUNIKASI DAN VISUAL</a>
-                <a href="/html/mp.html">MANAJEMEN PERKANTORAN</a>
-                <a href="/html/to.html">TEKNIK OTOMOTIF</a>
-                <a href="/html/tbsm.html">TEKNIK DAN BISNIS SEPEDA MOTOR</a>
-            </div>
-            </div> 
-            <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">TENDIK
-                    <i class="fa fa-caret-down"></i>
-                </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="/html/guru.html">GURU</a>
-                <a href="/html/tendik.html">TENAGA PENDIDIK</a>
-            </div>
-            </div> 
-            <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">GALERI
-                    <i class="fa fa-caret-down"></i>
-                </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="/html/foto.html">FOTO</a>
-                <a href="/html/video.html">VIDEO</a>
-            </div>
-            </div> 
-        </div>
-    </header>    
 
-    <!--Hero-->
-    <section class="hero">
-        <div class="hero-text">
+            <div class="dropdown">
+                <button class="dropbtn">JURUSAN <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="html/tkj.html">TEKNIK KOMPUTER & JARINGAN</a>
+                    <a href="html/apat.html">AGRIBISNIS PERIKANAN</a>
+                    <a href="html/rpl.html">REKAYASA PERANGKAT LUNAK</a>
+                    <a href="html/dkv.html">DESAIN KOMUNIKASI VISUAL</a>
+                    <a href="html/mp.html">MANAJEMEN PERKANTORAN</a>
+                    <a href="html/to.html">TEKNIK OTOMOTIF</a>
+                    <a href="html/tbsm.html">BISNIS SEPEDA MOTOR</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">TENDIK <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="html/guru.html">GURU</a>
+                    <a href="html/tendik.html">TENAGA PENDIDIK</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">GALERI <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="html/foto.html">FOTO</a>
+                    <a href="html/video.html">VIDEO</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero parallax">
+        <div class="hero-overlay"></div> <div class="hero-text">
             <h1>Sekolah Menengah Kejuruan<br>Unggul & Berprestasi</h1>
             <h3>Mendidik dan mengantarkan siswa menuju dunia kerja dan industri</h3>
         </div> 
-        <div class="about-img">
-            <img src="/images/upacara-1.jpeg" alt="upacara bendera">
-        </div>
     </section>
     
     <!--Body-->
-    <div class="parallax">
-        <div class="about-section">
-            <div class="about-image">
-                <img src="/images/gedung.jpeg" alt="Gedung Sekolah">
-            </div>
-            <div class="about-text">
-                <h1>SMK Negeri 1 Maros</h1>
-                <h3>
-                    Halo! Selamat datang di website SMK Negeri 1 Maros Kecamatan Lau, Kabupaten Maros, Provinsi Sulawesi Selatan. Wadah kreativitas dan tempat bertumbuhnya generasi masa depan yang berkarakter. Memiliki tujuh jurusan serta berbagai labolatorium untuk praktik, kami berkomitmen mencetak tenaga kerja terampil yang siap terjun langsung ke dunia industri. Harapan kami, website ini dapat menjadi sumber rujukan informasi yang lengkap dan tepercaya mengenai visi, misi, serta dinamika sekolah kami.
-                </h3>
-                <br>
-                <a href="/html/sejarah.html" class="button">Info Selanjutnya</a>   
-            </div>
+    <div class="about-section">
+        <div class="about-image">
+            <img src="/images/gedung.jpeg" alt="Gedung Sekolah">
+        </div>
+        <div class="about-text">
+            <h1>SMK Negeri 1 Maros</h1>
+            <h3>
+                Halo! Selamat datang di website SMK Negeri 1 Maros Kecamatan Lau, Kabupaten Maros, Provinsi Sulawesi Selatan. Wadah kreativitas dan tempat bertumbuhnya generasi masa depan yang berkarakter. Memiliki tujuh jurusan serta berbagai labolatorium untuk praktik, kami berkomitmen mencetak tenaga kerja terampil yang siap terjun langsung ke dunia industri. Harapan kami, website ini dapat menjadi sumber rujukan informasi yang lengkap dan tepercaya mengenai visi, misi, serta dinamika sekolah kami.
+            </h3>
+            <br>
+            <a href="/html/sejarah.html" class="button">Info Selanjutnya</a>   
         </div>
     </div>
 
@@ -100,17 +90,17 @@
     <section class="statistik">
         <div class="stat-box w-1">
             <i class="fas fa-users"></i>
-            <h2>XXX</h2>
+            <h2>1.425</h2>
             <p>Siswa Aktif</p>
         </div>
         <div class="stat-box w-2">
             <i class="fas fa-chalkboard-teacher"></i>
-            <h2>XXX</h2>
+            <h2>88</h2>
             <p>Guru</p>
         </div>
         <div class="stat-box w-3">
             <i class="fas fa-laptop"></i>
-            <h2>XXX</h2>
+            <h2>8</h2>
             <p>Laboratorium(Lab)</p>
         </div>
         </div>
