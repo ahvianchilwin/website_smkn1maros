@@ -1,4 +1,4 @@
-/*TO-Parallax*/
+/*TKR-Parallax*/
 .hero {
     height: 40vh;
     display: flex;
@@ -16,33 +16,33 @@
     background-size: cover;
 }
 
-.to {
+.tkr {
     position: relative;
     z-index: 2; 
     max-width: 800px;
     padding: 20px;
 }
 
-.to h1 {
+.tkr h1 {
     font-size: 3rem;
     margin-bottom: 15px;
     line-height: 1.2;
 }
 
-/*TO-BODY*/
-.logo-to {
+/*TKR-BODY*/
+.logo-tkr {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     margin: 10px 5%;
 }
 
-.logo-to img {
+.logo-tkr img {
     width: 200px;
     height: auto;
 }
 
-.deskripsi-to {
+.deskripsi-tkr {
     color: #333;
     padding: 20px 10%;
     text-align: justify;
@@ -53,14 +53,14 @@
     border-radius: 10px;
 }
 
-.deskripsi-to h2 {
+.deskripsi-tkr h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
     color: #0d47a1;
 }
 
-.deskripsi-to p {
+.deskripsi-tkr p {
     margin-bottom: 15px;
 }
 
@@ -72,7 +72,7 @@
     margin-bottom: 25px;
 }
 
-.kompetensi-to {
+.kompetensi-tkr {
     color: #333;
     padding: 20px 10%;
     text-align: justify;
@@ -83,19 +83,19 @@
     border-radius: 10px;
 }
 
-.kompetensi-to h2 {
+.kompetensi-tkr h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
     color: #0d47a1;
 }
 
-.kompetensi-to ul {
+.kompetensi-tkr ul {
     margin-bottom: 15px;
     margin-left: 20px;
 }
 
-.kompetensi-to ul li {
+.kompetensi-tkr ul li {
     margin-bottom: 10px;
 }
 
@@ -107,7 +107,7 @@
     margin-bottom: 25px;
 }
 
-.peluang-to {
+.peluang-tkr {
     color: #333;
     padding: 20px 10%;
     text-align: justify;
@@ -118,19 +118,19 @@
     border-radius: 10px;
 }
 
-.peluang-to h2 {
+.peluang-tkr h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 15px;
     color: #0d47a1;
 }
 
-.peluang-to ul {
+.peluang-tkr ul {
     margin-bottom: 15px;
     margin-left: 20px;
 }
 
-.peluang-to ul li {
+.peluang-tkr ul li {
     margin-bottom: 10px;
 }
 
