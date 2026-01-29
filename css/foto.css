@@ -29,76 +29,91 @@
 }
 
 /*Body*/
-.row > .colomn {
+.filter-menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
-    padding: 20px;
+    margin: 30px 0; 
 }
 
-.row img {
-    width: 500px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 6px;
+.filter-btn {
+    padding: 10px 20px;
+    border: 2px solid #3182ce; 
+    background: transparent;
+    color: #3182ce;
+    border-radius: 25px;
     cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-@media (max-width: 768px) {
-  .gallery img {
-    width: calc(50% - 15px);
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery img {
-    width: 100%;
-  }
-}
-
-.row img:hover {
-    transform: scale(1.05);
-}
-
-img.hover-shadow {
+    font-weight: bold;
     transition: 0.3s;
 }
 
-.hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.filter-btn:hover, 
+.filter-btn.active {
+    background: #3182ce;
+    color: white;
 }
 
-.lightbox {
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 25px; 
+    padding: 20px 5%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.5s ease; 
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px); 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.caption {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.gallery-item.hide {
     display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 9999;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.lightbox img {
-    max-width: 90%;
-    max-height: 80%;
-    border-radius: 8px;
+@media (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.lightbox p {
-    color: #fff;
-    margin-top: 12px;
-    font-size: 20px;
-    text-align: center
+@media (max-width: 480px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-btn {
+        font-size: 12px; 
+        padding: 8px 15px;
+    }
 }
 
-.close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #fff;
-    font-size: 32px;
-    cursor: pointer;
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
 }

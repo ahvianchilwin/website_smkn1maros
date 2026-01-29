@@ -73,22 +73,52 @@
     </section>   
     <br><br>
     <!--GALERI FOTO-->
-    <div class="row">
-        <div class="column">
-            <img src="/images/galeri-1.jpeg" class="hover-shadow" data-caption="Pendaftaran Smart Production">
-            <img src="/images/galeri-2.jpeg" class="hover-shadow" data-caption="Menyanyikan Lagu Indonesia Raya">
-            <img src="/images/galeri-3.jpeg" class="hover-shadow" data-caption="Upacara HUT RI yang Ke-79">
-            <img src="/images/galeri-4.jpeg" class="hover-shadow" data-caption="Kegiatan Donor Darah">
-            <img src="/images/galeri-5.jpeg" class="hover-shadow" data-caption="Acara Pramuka Internasional Tahunan Terbesar Di Dunia (JOTA JOTI KWARTIR RANTING LAU)">
-            <img src="/images/galeri-6.jpeg" class="hover-shadow" data-caption="Futsal Scaone">
-            <img src="/images/galeri-7.jpeg" class="hover-shadow" data-caption="Literasi Bersama Setiap Hari Jum'at">
-        </div>
-        <div id="lightbox" class="lightbox">
-            <span class="close">&times;</span>
-            <img id="lightbox-img">
-            <p id="data-caption"></p>
-        </div>
-    </div>  
+    <div class="filter-menu">
+    <button class="filter-btn active" data-filter="all">Semua</button>
+    <button class="filter-btn" data-filter="kegiatan">Kegiatan Siswa</button>
+    <button class="filter-btn" data-filter="praktik">Praktik Jurusan</button>
+    <button class="filter-btn" data-filter="eskul">Ekskul & Organisasi</button>
+    <button class="filter-btn" data-filter="prestasi">Prestasi</button>
+</div>
+
+<div class="gallery-container">
+    
+    <div class="gallery-item" data-category="kegiatan">
+        <img src="/images/galeri-1.jpeg" alt="Smart Production">
+        <div class="caption">Pendaftaran Smart Production</div>
+    </div>
+
+    <div class="gallery-item" data-category="kegiatan">
+        <img src="/images/galeri-2.jpeg" alt="Lagu Indonesia Raya">
+        <div class="caption">Menyanyikan Lagu Indonesia Raya</div>
+    </div>
+
+    <div class="gallery-item" data-category="kegiatan">
+        <img src="/images/galeri-3.jpeg" alt="HUT RI">
+        <div class="caption">Upacara HUT RI yang Ke-79</div>
+    </div>
+
+    <div class="gallery-item" data-category="eskul">
+        <img src="/images/galeri-4.jpeg" alt="Donor Darah">
+        <div class="caption">Kegiatan Donor Darah</div>
+    </div>
+
+    <div class="gallery-item" data-category="eskul">
+        <img src="/images/galeri-5.jpeg" alt="Pramuka">
+        <div class="caption">Acara Pramuka Internasional (JOTA JOTI)</div>
+    </div>
+
+    <div class="gallery-item" data-category="eskul">
+        <img src="/images/galeri-6.jpeg" alt="Futsal">
+        <div class="caption">Futsal Scaone</div>
+    </div>
+
+    <div class="gallery-item" data-category="kegiatan">
+        <img src="/images/galeri-7.jpeg" alt="Literasi">
+        <div class="caption">Literasi Bersama Setiap Hari Jum'at</div>
+    </div>
+
+</div>
     <!--FOOTER-->    
 <footer class="footer">
     <div class="main-footer" style="background-color: white;">
