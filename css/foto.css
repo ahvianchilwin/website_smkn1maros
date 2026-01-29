@@ -58,8 +58,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 30px; 
-    padding: 20px 1%; 
-    max-width: 1200px;
+    padding: 20px 0.1%; 
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -95,23 +95,6 @@
 
 .gallery-item.hide {
     display: none;
-}
-
-@media (max-width: 768px) {
-    .gallery-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .filter-btn {
-        font-size: 12px; 
-        padding: 8px 15px;
-    }
 }
 
 @keyframes fadeIn {
