@@ -159,7 +159,7 @@
 }
 
 .hero-text h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 25px;
   font-weight: 400;
 }
@@ -181,106 +181,119 @@
   align-items: center;      
   gap: 100px;                
   padding: 50px;
+  background-color: #f1f1f1;
 }
 
 .about-image img {
   width: 510px;
   height: 350px;
   border-radius: 10px;
-  animation: fadeIn2 1.5s ease-in-out;
 }
 
 .about-text {
-  color: black;
+  color: #37474f;
   max-width: 800px;
   text-align: justify;
-  animation: fadeIn3 1.5s ease-in-out;
 }
 
 .about-text h1 {
   margin-bottom: 15px;
+  color: #0d47a1;
 }
 
 .about-text h3 {
   margin-bottom: 10px;
+  line-height: 1.5;
 }
 
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2a8ffc;
-  color: black;
+  background-color: #1e88e5;
+  color: white;
   text-decoration: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
 .button:hover {
-  background-color: #0056b3;
-}
-
-@keyframes fadeIn2 {
-  from {
-    opacity: 0;
-    transform: translateX(-500px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeIn3 {
-  from {
-    opacity: 0;
-    transform: translateX(500px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  background-color: #1565c0;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
 /*Stat-Box*/
 .statistik {
   display: flex;
+  width: 100;
+  background: linear-gradient(to right, #42a5f5, #0d47a1);
+  color: #f5f7fa;
+}
+
+.stat {
+  margin-top: 5px;
+  padding: 20px 30px;
+  text-align: center;
   width: 100%;
 }
 
-.stat-box {
+.siswa i {
   text-align: center;
-  width: 33.33%;
-  color: #fff;
-  padding: 40px 20px;
+  text-align: justify;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.stat-box i {
+.siswa h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.siswa p {
+  text-align: center;
+  margin-bottom: 5px;  
+  font-size: 20px;  
+}
+
+.guru i {
+  text-align: center;
+  text-align: justify;
   font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.guru h2 {
+  text-align: center;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 
-.stat-box h3 {
-  margin: 10px 0;
-  font-size: 20px;
+.guru p {
+  text-align: center;
+  margin-bottom: 10px;  
+  font-size: 20px;  
 }
 
-.stat-box p {
-  font-size: 20px;
-  line-height: 1.6;
+.lab i {
+  text-align: center;
+  text-align: justify;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.w-1 {
-  background: linear-gradient(135deg, #0d47a1, #1976d2);
+.lab h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
 }
 
-.w-2 {
-  background: linear-gradient(135deg, #1565c0, #1e88e5);
-}
-
-.w-3 {
-  background: linear-gradient(135deg, #1e88e5, #42a5f5);
+.lab p {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 20px;    
 }
 
 /*FOOTER*/
