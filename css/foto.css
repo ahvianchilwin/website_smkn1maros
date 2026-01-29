@@ -46,6 +46,7 @@
     cursor: pointer;
     font-weight: bold;
     transition: 0.3s;
+    font-size: 110%;
 }
 
 .filter-btn:hover, 
