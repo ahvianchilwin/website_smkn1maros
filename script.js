@@ -25,7 +25,9 @@ filterButtons.forEach(button => {
         const filterValue = button.getAttribute('data-filter');
 
         galleryItems.forEach(item => {
-            if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+            const itemCategory = item.getAttribute('data-category');
+
+            if (filterValue === 'all' || itemCategory.includes(filterValue)) {
                 item.classList.remove('hide');
             } else {
                 item.classList.add('hide');
