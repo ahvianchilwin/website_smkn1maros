@@ -74,6 +74,15 @@
     animation: fadeIn 0.5s ease; 
 }
 
+.gallery-item p {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
 .gallery-item:hover {
     transform: translateY(-5px); 
     box-shadow: 0 4px 10px rgba(0,0,0,0.3); ;
@@ -87,7 +96,7 @@
 }
 
 .caption {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     font-size: 14px;
     color: #333;
