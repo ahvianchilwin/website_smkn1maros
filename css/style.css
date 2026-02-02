@@ -297,6 +297,131 @@
   font-size: 20px;    
 }
 
+/*Testimoni*/
+.testimoni-section {
+  padding: 50px 2%;
+  background-color: #f9f9f9; 
+  text-align: center;
+}
+
+.section-title h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; 
+  padding: 20px 0px;
+  scroll-behavior: smooth; 
+  scroll-snap-type: x mandatory; 
+}
+
+.testimonial-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.testi-card {
+  min-height: 250px;
+  min-width: 360px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05); 
+  text-align: left;
+  scroll-snap-align: center; 
+  border: 1px solid #eee;
+  transition: transform 0.3s;
+}
+
+.testi-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.testi-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.testi-header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.testi-info h4 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.testi-info span {
+  font-size: 12px;
+  color: #888;
+}
+
+.quote-icon {
+  margin-left: auto; 
+  font-size: 24px;
+  color: #2a8ffc; 
+  opacity: 0.3;
+}
+
+.testi-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.slide-btn {
+  background: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  color: #1e3a8a;
+  z-index: 2;
+  transition: all 0.3s;
+  flex-shrink: 0; 
+}
+
+.slide-btn:hover {
+  background: #2a8ffc;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .testi-card {
+      min-width: 85vw; 
+  }
+  
+  .slide-btn {
+      display: none;
+  }
+}
+
+.one-liner {
+  text-align: center;
+  color: #555;
+}
+
 /*Denah Gedung*/
 .denah-gedung {
   margin-top: 50px;

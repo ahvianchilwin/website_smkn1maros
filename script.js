@@ -13,6 +13,28 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// Testimoni
+// --- TESTIMONIAL SLIDER ---
+const testiContainer = document.getElementById('testimonialContainer');
+const nextBtn = document.getElementById('nextBtn');
+const prevBtn = document.getElementById('prevBtn');
+
+// Fungsi Tombol Kanan
+nextBtn.addEventListener('click', () => {
+    testiContainer.scrollBy({
+        left: 340, // Geser sejauh 340px (lebar kartu + gap)
+        behavior: 'smooth'
+    });
+});
+
+// Fungsi Tombol Kiri
+prevBtn.addEventListener('click', () => {
+    testiContainer.scrollBy({
+        left: -340, // Geser balik ke kiri
+        behavior: 'smooth'
+    });
+});
+
 // Foto
 const filterButtons = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
