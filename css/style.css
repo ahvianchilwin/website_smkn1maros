@@ -297,9 +297,55 @@
   font-size: 20px;    
 }
 
+/*Denah Gedung*/
+.denah-gedung {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.gambar-denah {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.gambar-denah h2 {
+  margin-bottom: 15px;
+  color: #0d47a1;
+}
+
+.gambar-denah p {
+  margin-bottom: 10px;
+  max-width: 700px;
+  gap: 100px;
+  color: #37474f;
+}
+
+.gambar-denah ul, ol {
+  text-align: justify;
+  margin-bottom: 15px; 
+  margin-left: 20px;
+}
+
+.gambar-denah li, ul{
+  margin-bottom: 8px; 
+}
+
+.gambar-denah img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120%;
+  margin-top: 10px;
+}
+
 /*FOOTER*/
 .footer {
-  background-color: #f5f7fa;
+  background: linear-gradient(#f5f7fa, #c8c9cc);
 }
 
 .main-footer  img {
@@ -318,7 +364,6 @@
   justify-content: space-between;
   color: black;
   text-align: justify;
-  background-color: #f5f7fa;
 }
 
 .section-footer {
