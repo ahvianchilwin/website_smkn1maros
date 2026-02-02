@@ -52,3 +52,24 @@ function gridView() {
     elements[i].style.width = "50%";
   }
 }
+
+// Tombol Ke Atas
+const toTopBtn = document.getElementById("toTopBtn");
+
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector(".navbar");
+
+    if (window.scrollY > 300) {
+        toTopBtn.classList.add("active");
+    } else {
+        toTopBtn.classList.remove("active");
+    }
+});
+
+toTopBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
