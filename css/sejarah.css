@@ -1,4 +1,6 @@
-/*Sejarah-Parallax*/
+/*==========================================
+            SEJARAH-PARALLAX
+==========================================*/
 .hero {
     height: 40vh;
     display: flex;
@@ -8,7 +10,7 @@
     text-align: center;
     color: white;
 
-    /*Parallax*/
+    /* --- Parallax --- */
     background-image: url("/images/background-dark.jpeg"); 
     background-attachment: fixed;
     background-position: center;
@@ -29,7 +31,9 @@
     line-height: 1.2;
 }
 
-/*Sejarah-Body*/
+/*==========================================
+                SEJARAH-BODY
+==========================================*/
 .content-sejarah {
     color: #333;
     padding: 20px 15%;
@@ -72,7 +76,9 @@
     margin-bottom: 25px;
 }
 
-/*Filosofi-Body*/
+/*==========================================
+                FILOSOFI-BODY
+==========================================*/
 .content-filosofi {
     color: #333;
     padding: 20px 15%;

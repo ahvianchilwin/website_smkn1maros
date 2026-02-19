@@ -1,3 +1,6 @@
+/*==========================================
+                FOTO-PARALLAX
+==========================================*/
 .hero {
     height: 40vh;
     display: flex;
@@ -7,7 +10,7 @@
     text-align: center;
     color: white;
 
-    /*Parallax*/
+    /* --- Parallax --- */
     background-image: url("/images/background-dark.jpeg"); 
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +31,9 @@
     line-height: 1.2;
 }
 
-/*Body*/
+/*==========================================
+                FOTO-BODY
+==========================================*/
 .filter-menu {
     display: flex;
     justify-content: center;

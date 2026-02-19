@@ -13,18 +13,18 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// --- SCRIPT UNTUK MENU HAMBURGER (HP) ---
+// --- SCRIPT UNTUK MENU BAR (HP) --- \\
 const menuToggle = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.menu');
 
 if (menuToggle) {
     menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active'); // Animasi tombol (opsional)
-        navMenu.classList.toggle('active');    // Memunculkan menu
+        menuToggle.classList.toggle('active'); 
+        navMenu.classList.toggle('active');    
     });
 }
 
-// Menutup menu saat salah satu link diklik
+// --- Menutup menu saat salah satu link diklik --- \\
 const navLink = document.querySelectorAll('.menu a');
 navLink.forEach(n => n.addEventListener('click', () => {
     menuToggle.classList.remove('active');

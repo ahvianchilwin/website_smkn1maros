@@ -1,4 +1,6 @@
-/*Eskul-Parallax*/
+/*==========================================
+                EKSKUL-PARALLAX
+==========================================*/
 .hero {
     height: 40vh;
     display: flex;
@@ -8,7 +10,7 @@
     text-align: center;
     color: white;
 
-    /*Parallax*/
+    /* --- Parallax --- */
     background-image: url("/images/background-dark.jpeg"); 
     background-attachment: fixed;
     background-position: center;
@@ -29,8 +31,10 @@
     line-height: 1.2;
 }
 
-/*Eskul-Body*/
-/*PASKIB*/
+/*==========================================
+                ORGANISASI-BODY
+==========================================*/
+/* --- Paskib --- */
 .content-paskib {
     color: #333;
     text-align: justify;
@@ -62,7 +66,7 @@
     height: auto;
 }
 
-/*Struktur-PASKIB*/
+/* --- Struktur-Paskib --- */
 .paskib {
     padding: 20px 30px;
     text-align: justify;
@@ -91,7 +95,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-PASKIB*/
+/* --- Vimi-Paskib --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -114,7 +118,7 @@
     margin-bottom: 5px;    
 }
 
-/*Penghargaan-PASKIB*/
+/* --- Penghargaan-Paskib --- */
 .penghargaan h2 {
     text-align: justify;
     font-size: 30px;
@@ -137,7 +141,7 @@
     margin-bottom: 5px;    
 }
 
-/*OSIS*/
+/* --- OSIS --- */
 .content-osis {
     color: #333;
     text-align: justify;
@@ -169,7 +173,7 @@
     height: auto;
 }
 
-/*Struktur-OSIS*/
+/* --- Struktur-OSIS --- */
 .osis {
     padding: 20px 30px;
     text-align: justify;
@@ -198,7 +202,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-OSIS*/
+/* --- Vimi-OSIS --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -221,7 +225,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-OSIS*/
+/* --- Kegiatan-OSIS --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -244,7 +248,7 @@
     margin-bottom: 5px;    
 }
 
-/*PMR*/
+/* --- PMR --- */
 .content-pmr {
     color: #333;
     text-align: justify;
@@ -276,7 +280,7 @@
     height: auto;
 }
 
-/*Struktur-PMR*/
+/* --- Struktur-PMR --- */
 .pmr {
     padding: 20px 30px;
     text-align: justify;
@@ -305,7 +309,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-PMR*/
+/* --- Vimi-PMR --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -328,7 +332,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-PMR*/
+/* --- Kegiatan-PMR --- */
 .kegiatan-penghargaan h2 {
     text-align: justify;
     font-size: 30px;
@@ -351,7 +355,7 @@
     margin-bottom: 5px;    
 }
 
-/*ROHIS*/
+/* --- Rohis --- */
 .content-rohis {
     color: #333;
     text-align: justify;
@@ -383,7 +387,7 @@
     height: auto;
 }
 
-/*Struktur-ROHIS*/
+/* --- Struktur-Rohis --- */
 .rohis {
     padding: 20px 30px;
     text-align: justify;
@@ -412,7 +416,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-ROHIS*/
+/* --- Vimi-Rohis --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -435,7 +439,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-ROHIS*/
+/* --- Kegiatan-Rohis --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -458,7 +462,7 @@
     margin-bottom: 5px;    
 }
 
-/*SASPAT*/
+/* --- Saspat --- */
 .content-saspat {
     color: #333;
     text-align: justify;
@@ -490,7 +494,7 @@
     height: auto;
 }
 
-/*Struktur-SASPAT*/
+/* --- Struktur-Saspat --- */
 .saspat {
     padding: 20px 30px;
     text-align: justify;
@@ -519,7 +523,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-SASPAT*/
+/* --- Vimi-Saspat --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -542,7 +546,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-SASPAT*/
+/* --- Kegiatan-Saspat --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -565,7 +569,7 @@
     margin-bottom: 5px;    
 }
 
-/*PRAMUKA*/
+/* --- Pramuka --- */
 .content-pramuka {
     color: #333;
     text-align: justify;
@@ -597,7 +601,7 @@
     height: auto;
 }
 
-/*Struktur-PRAMUKA*/
+/* --- Struktur-Pramuka --- */
 .pramuka {
     padding: 20px 30px;
     text-align: justify;
@@ -626,7 +630,7 @@
     margin-bottom: 5px;    
 }
 
-/*Vimi-PRAMUKA*/
+/* --- Vimi-Pramuka --- */
 .vimi h2 {
     text-align: justify;
     font-size: 30px;
@@ -649,7 +653,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-PRAMUKA*/
+/* --- Kegiatan-Pramuka --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -672,7 +676,10 @@
     margin-bottom: 5px;    
 }
 
-/*FUTSAL*/
+/*==========================================
+                EKSTRAKULIKULER
+==========================================*/
+/* --- Futsal --- */
 .content-futsal {
     color: #333;
     text-align: justify;
@@ -710,7 +717,7 @@
     text-align: center;
 }
 
-/*Struktur-FUTSAL*/
+/* --- Struktur-Futsal --- */
 .futsal {
     padding: 20px 30px;
     text-align: justify;
@@ -739,7 +746,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-FUTSAL*/
+/* --- Kegiatan-Futsal --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -762,7 +769,7 @@
     margin-bottom: 5px;    
 }
 
-/*VOLI*/
+/* --- VOLI --- */
 .content-voli {
     color: #333;
     text-align: justify;
@@ -800,7 +807,7 @@
     text-align: center;
 }
 
-/*Struktur-VOLI*/
+/* --- Struktur-Voli --- */
 .voli {
     padding: 20px 30px;
     text-align: justify;
@@ -829,7 +836,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-VOLI*/
+/* --- Kegiatan-Voli --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;
@@ -852,7 +859,7 @@
     margin-bottom: 5px;    
 }
 
-/*BASKET*/
+/* --- Basket --- */
 .content-basket {
     color: #333;
     text-align: justify;
@@ -890,7 +897,7 @@
     text-align: center;
 }
 
-/*Struktur-BASKET*/
+/* --- Struktur-Basket --- */
 .basket {
     padding: 20px 30px;
     text-align: justify;
@@ -919,7 +926,7 @@
     margin-bottom: 5px;    
 }
 
-/*Kegiatan-BASKET*/
+/* --- Kegiatan-Basket --- */
 .kegiatan h2 {
     text-align: justify;
     font-size: 30px;

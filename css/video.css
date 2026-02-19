@@ -1,4 +1,6 @@
-/*Video-Parallax*/
+/*==========================================
+                VIDEO-PARALLAX
+==========================================*/
 .hero {
     height: 40vh;
     display: flex;
@@ -8,7 +10,7 @@
     text-align: center;
     color: white;
 
-    /*Parallax*/
+    /* --- Parallax --- */
     background-image: url("/images/background-dark.jpeg"); 
     background-attachment: fixed;
     background-position: center;
@@ -29,7 +31,9 @@
     line-height: 1.2;
 }
 
-/*Video-Body*/
+/*==========================================
+                VIDEO-BODY
+==========================================*/
 .galeri-section {
     padding: 50px 20px;
     text-align: center;

@@ -23,7 +23,9 @@
   margin-right: 10px;
 }
 
-/*MENU & LINK*/
+/*==========================================
+              MENU & LINK
+==========================================*/
 .menu {
   display: flex;
   align-items: center;
@@ -62,7 +64,7 @@
   width: calc(100% - 30px);
 }
 
-/*DROPDOWN*/
+/* --- DROPDOWN --- */
 .dropdown {
   position: relative; 
 }
@@ -119,7 +121,9 @@
   color: #1e3a8a; 
 }
 
-/*HERO & PARALLAX*/
+/*==========================================
+              HERO & PARALLAX
+==========================================*/
 .hero {
   height: 100vh;
   display: flex;
@@ -129,7 +133,7 @@
   text-align: center;
   color: white;
   
-  /*Parallax*/
+  /* --- Parallax --- */
   background-image: url("/images/upacara-1.jpeg"); 
   background-attachment: fixed;
   background-position: center;
@@ -164,7 +168,7 @@
   font-weight: 400;
 }
 
-/*TRANSISI*/
+/* --- TRANSISI --- */
 @keyframes slideDown {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -175,7 +179,9 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/*BODY*/
+/*==========================================
+                    BODY
+==========================================*/
 .about-section {
   display: flex;
   align-items: center;      
@@ -226,7 +232,7 @@
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*Stat-Box*/
+/* --- Stat-Box --- */
 .statistik {
   display: flex;
   width: 100;
@@ -297,7 +303,7 @@
   font-size: 20px;    
 }
 
-/*Testimoni*/
+/* --- Testimoni --- */
 .testimoni-section {
   padding: 50px 2%;
   background-color: #f9f9f9; 
@@ -395,7 +401,7 @@
 
 @media screen and (max-width: 768px) {
   .testi-card {
-      min-width: 85vw; 
+     min-width: 85vw; 
   }
 }
 
@@ -404,7 +410,7 @@
   color: #555;
 }
 
-/*Denah Gedung*/
+/* --- Denah Gedung --- */
 .denah-gedung {
   margin-top: 50px;
   width: 80%;
@@ -450,7 +456,9 @@
   margin-top: 10px;
 }
 
-/*FOOTER*/
+/*==========================================
+                  FOOTER
+==========================================*/
 .footer {
   background: linear-gradient(white, #c8c9cc);
 }
@@ -501,7 +509,7 @@
   transform: scale(1.5);
 }
 
-/*Tombol Ke Atas*/
+/* --- Tombol Ke Atas --- */
 .to-top {
   position: fixed;
   bottom: 25px;
@@ -538,21 +546,21 @@
 }
 
 /*==========================================
-MEDIA QUERIES (KHUSUS TAMPILAN HP)
+    MEDIA QUERIES (KHUSUS TAMPILAN HP)
 ========================================= */
 @media screen and (max-width: 768px) {
 
-/* 1. NAVBAR & MENU HAMBURGER */
+/* --- NAVBAR & MENU --- */
 .navbar {
   display: flex;
-  justify-content: space-between; /* Logo Kiri, Tombol Kanan */
+  justify-content: space-between; 
   align-items: center;
   padding: 5px 1  0px;
-  position: fixed; /* Header menempel saat scroll */
+  position: fixed; 
   width: 100%;
   top: 0;
   left: 0;
-  background-color: transparent; /* Atau white jika mau putih terus */
+  background-color: transparent; 
   z-index: 999;
   transition: 0.3s;
 }
@@ -573,7 +581,7 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
   display: block;
   width: 35px;
   height: 5px;
-  background-color: #ffffff; /* Warna garis hamburger */
+  background-color: #ffffff; 
   margin: 6px 40px;
   border-radius: 3px;
   transition: all 0.3s ease-in-out;
@@ -583,17 +591,17 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
 /* Animasi Tombol Jadi 'X' */
 .menu-toggle.active .bar:nth-child(1) {
   transform: rotate(-45deg) translate(-8px, 8px);
-  background-color: #0d47a1; /* Ubah warna jadi biru saat menu buka */
+  background-color: #0d47a1; 
 }
 .menu-toggle.active .bar:nth-child(2) {
-  opacity: 0; /* Garis tengah hilang */
+  opacity: 0; 
 }
 .menu-toggle.active .bar:nth-child(3) {
   transform: rotate(45deg) translate(-8px, -8px);
   background-color: #0d47a1;
 }
 
-/* Ubah warna hamburger jadi putih saat scroll */
+/* Mengubah warna bar menjadi biru saat discroll */
 .navbar.scrolled .menu-toggle .bar {
   background-color: #0d47a1;
 }
@@ -601,41 +609,38 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
 .menu {
   position: fixed;
   top: 0;
-  right: -100%; /* Sembunyi total di kanan layar */
-  width: 50%; /* Lebar menu (bisa 70% atau pixel) */
-  height: 100vh; /* Tinggi full layar */
-  background-color: #ffffff; /* Latar Putih */
-  
+  right: -100%; 
+  width: 50%; 
+  height: 100vh; 
+  background-color: #ffffff; 
   display: flex;
   flex-direction: column;
-  padding-top: 80px; /* Jarak atas agar link tidak nabrak tombol X */
+  padding-top: 80px; 
   padding-left: 20px;
   padding-right: 20px;
-  
-  transition: 0.4s ease-in-out; /* Animasi geser halus */
-  box-shadow: -5px 0 15px rgba(0,0,0,0.1); /* Bayangan */
-  z-index: 10000; /* Di bawah tombol, tapi di atas konten web */
+  transition: 0.4s ease-in-out;
+  box-shadow: -5px 0 15px rgba(0,0,0,0.1); 
+  z-index: 10000;
 }
 
 .menu.active {
-  right : 0; /* Munculkan menu */
+  right : 0;
 }
 
 .menu a, .dropbtn {
-  color: #333 !important; /* Warna teks menu di HP jadi gelap */
+  color: #333 !important; 
   font-size: 16px;
   padding: 15px 0;
   display: block;
   width: 100%;
-  text-align: left; /* Rata kiri seperti screenshotmu */
-  border-bottom: 1px solid #eee; /* Garis tipis antar menu */
+  text-align: left; 
+  border-bottom: 1px solid #eee; 
 }
 
 .menu a:last-child {
   border-bottom: none;
 }
 
-/* Dropdown di HP langsung tampil ke bawah (static) */
 .dropdown {
   width: 100%;
 }
@@ -650,12 +655,11 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
   box-shadow: none;
 }
 
-/* Tampilkan dropdown saat diklik (perlu JS tambahan) atau hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* 2. HERO SECTION */
+/* --- HERO SECTION --- */
 .hero-text h1 {
   font-size: 2rem;
 }
@@ -663,9 +667,9 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
   font-size: 1rem;
 }
 
-/* 3. ABOUT SECTION (VIDEO & TEKS) */
+/* --- VIDEO & TEKS --- */
 .about-section {
-  flex-direction: column; /* Ubah baris jadi kolom */
+  flex-direction: column; 
   padding: 30px 20px;
   gap: 30px;
 }
@@ -676,19 +680,19 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
 }
 
 .about-iframe iframe {
-  width: 100%; /* Agar video youtube tidak lebar melebihi layar */
-  height: 250px; /* Sesuaikan tinggi */
+  width: 100%; 
+  height: 250px; 
 }
 
-/* 4. STATISTIK */
+/* --- STATISTIK --- */
 .statistik {
-  flex-direction: column; /* Statistik turun ke bawah */
+  flex-direction: column; 
 }
 
-/* 5. DENAH GEDUNG */
+/* --- DENAH GEDUNG --- */
 .denah-gedung {
   width: 100%;
-  margin-left: 0; /* Hilangkan margin besar */
+  margin-left: 0; 
   padding: 20px;
   flex-direction: column;
 }
@@ -702,14 +706,14 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
   margin: 0 auto;
 }
 
-/* 6. FOOTER */
+/* --- FOOTER --- */
 .main-footer img {
-  width: 80%; /* Logo footer lebih besar dikit di HP */
+  width: 80%; 
 }
 
 .second-footer {
   width: 100%;
-  margin-left: 0; /* Reset margin */
+  margin-left: 0; 
   padding: 0 20px;
   flex-direction: column;
 }
@@ -720,7 +724,7 @@ MEDIA QUERIES (KHUSUS TAMPILAN HP)
 }
 
 .section-footer iframe {
-  width: 100%; /* Peta Google Maps full width */
+  width: 100%; 
   height: 300px;
 }
 }
