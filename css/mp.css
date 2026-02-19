@@ -1,4 +1,6 @@
-/*MP-Parallax*/
+/*==========================================
+            MP-HERO & PARALLAX
+==========================================*/
 .hero {
     height: 40vh;
     display: flex;
@@ -8,7 +10,7 @@
     text-align: center;
     color: white;
 
-    /*Parallax*/
+    /* --- Parallax --- */
     background-image: url("/images/background-dark.jpeg"); 
     background-attachment: fixed;
     background-position: center;
@@ -29,7 +31,9 @@
     line-height: 1.2;
 }
 
-/*MP-Body*/
+/*==========================================
+                MP-CONTENT
+==========================================*/
 .logo-mp {
     text-align: center;
     padding-top: 15px;

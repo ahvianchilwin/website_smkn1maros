@@ -588,7 +588,7 @@
   display: block;
 }
 
-/* Animasi Tombol Jadi 'X' */
+/* --- Animasi Tombol Jadi 'X' --- */
 .menu-toggle.active .bar:nth-child(1) {
   transform: rotate(-45deg) translate(-8px, 8px);
   background-color: #0d47a1; 
@@ -601,7 +601,7 @@
   background-color: #0d47a1;
 }
 
-/* Mengubah warna bar menjadi biru saat discroll */
+/* --- Mengubah warna bar menjadi biru saat discroll --- */
 .navbar.scrolled .menu-toggle .bar {
   background-color: #0d47a1;
 }
