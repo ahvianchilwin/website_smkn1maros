@@ -536,3 +536,191 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
   color: #fff;
 }
+
+/*==========================================
+MEDIA QUERIES (KHUSUS TAMPILAN HP)
+========================================= */
+@media screen and (max-width: 768px) {
+
+/* 1. NAVBAR & MENU HAMBURGER */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo Kiri, Tombol Kanan */
+  align-items: center;
+  padding: 5px 1  0px;
+  position: fixed; /* Header menempel saat scroll */
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent; /* Atau white jika mau putih terus */
+  z-index: 999;
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-toggle {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  z-index: 10001;
+}
+
+.menu-toggle .bar {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff; /* Warna garis hamburger */
+  margin: 6px 40px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+/* Animasi Tombol Jadi 'X' */
+.menu-toggle.active .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-8px, 8px);
+  background-color: #0d47a1; /* Ubah warna jadi biru saat menu buka */
+}
+.menu-toggle.active .bar:nth-child(2) {
+  opacity: 0; /* Garis tengah hilang */
+}
+.menu-toggle.active .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-8px, -8px);
+  background-color: #0d47a1;
+}
+
+/* Ubah warna hamburger jadi putih saat scroll */
+.navbar.scrolled .menu-toggle .bar {
+  background-color: #0d47a1;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Sembunyi total di kanan layar */
+  width: 50%; /* Lebar menu (bisa 70% atau pixel) */
+  height: 100vh; /* Tinggi full layar */
+  background-color: #ffffff; /* Latar Putih */
+  
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px; /* Jarak atas agar link tidak nabrak tombol X */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  transition: 0.4s ease-in-out; /* Animasi geser halus */
+  box-shadow: -5px 0 15px rgba(0,0,0,0.1); /* Bayangan */
+  z-index: 10000; /* Di bawah tombol, tapi di atas konten web */
+}
+
+.menu.active {
+  right : 0; /* Munculkan menu */
+}
+
+.menu a, .dropbtn {
+  color: #333 !important; /* Warna teks menu di HP jadi gelap */
+  font-size: 16px;
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+  text-align: left; /* Rata kiri seperti screenshotmu */
+  border-bottom: 1px solid #eee; /* Garis tipis antar menu */
+}
+
+.menu a:last-child {
+  border-bottom: none;
+}
+
+/* Dropdown di HP langsung tampil ke bawah (static) */
+.dropdown {
+  width: 100%;
+}
+
+.dropdown-content {
+  position: static;
+  display: none;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding-left: 15px;
+  border: none;
+  box-shadow: none;
+}
+
+/* Tampilkan dropdown saat diklik (perlu JS tambahan) atau hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 2. HERO SECTION */
+.hero-text h1 {
+  font-size: 2rem;
+}
+.hero-text h3 {
+  font-size: 1rem;
+}
+
+/* 3. ABOUT SECTION (VIDEO & TEKS) */
+.about-section {
+  flex-direction: column; /* Ubah baris jadi kolom */
+  padding: 30px 20px;
+  gap: 30px;
+}
+
+.about-iframe, .about-text {
+  width: 100%;
+  max-width: 100%;
+}
+
+.about-iframe iframe {
+  width: 100%; /* Agar video youtube tidak lebar melebihi layar */
+  height: 250px; /* Sesuaikan tinggi */
+}
+
+/* 4. STATISTIK */
+.statistik {
+  flex-direction: column; /* Statistik turun ke bawah */
+}
+
+/* 5. DENAH GEDUNG */
+.denah-gedung {
+  width: 100%;
+  margin-left: 0; /* Hilangkan margin besar */
+  padding: 20px;
+  flex-direction: column;
+}
+
+.gambar-denah {
+  width: 100%;
+}
+
+.gambar-denah img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 6. FOOTER */
+.main-footer img {
+  width: 80%; /* Logo footer lebih besar dikit di HP */
+}
+
+.second-footer {
+  width: 100%;
+  margin-left: 0; /* Reset margin */
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+.section-footer {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.section-footer iframe {
+  width: 100%; /* Peta Google Maps full width */
+  height: 300px;
+}
+}

@@ -1,4 +1,4 @@
-// Navbar
+// --- Navbar --- \\
 const navbar = document.querySelector(".navbar");
 const heroSection = document.querySelector(".hero");
 
@@ -13,7 +13,25 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Foto
+// --- SCRIPT UNTUK MENU HAMBURGER (HP) ---
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.menu');
+
+if (menuToggle) {
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active'); // Animasi tombol (opsional)
+        navMenu.classList.toggle('active');    // Memunculkan menu
+    });
+}
+
+// Menutup menu saat salah satu link diklik
+const navLink = document.querySelectorAll('.menu a');
+navLink.forEach(n => n.addEventListener('click', () => {
+    menuToggle.classList.remove('active');
+    navMenu.classList.remove('active');
+}));
+
+// --- Foto --- \\
 const filterButtons = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
 
@@ -36,7 +54,7 @@ filterButtons.forEach(button => {
     });
 });
 
-// Video
+// --- Video --- \\
 var elements = document.getElementsByClassName("video-item");
 
 var i;
@@ -53,7 +71,7 @@ function gridView() {
   }
 }
 
-// Tombol Ke Atas
+// --- Tombol Ke Atas --- \\
 const toTopBtn = document.getElementById("toTopBtn");
 
 window.addEventListener('scroll', function() {
