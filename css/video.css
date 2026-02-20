@@ -34,54 +34,52 @@
 /*==========================================
                 VIDEO-CONTENT
 ==========================================*/
-.galeri-section {
-    padding: 50px 20px;
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px; 
+    padding: 50px; 
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15); 
+    transition: transform 0.3s ease;
+}
+
+.gallery-item iframe, 
+.gallery-item video {
+    width: 100%;
+    height: 250px; 
+    border: none;
+    display: block;
+}
+
+.caption {
+    padding: 15px;
     text-align: center;
-}
-
-.galeri-section h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: #0d47a1;
-}
-
-.video.grid {
-    float: left;
-    gap: 20px;
-    padding: 0 4px;
-}
-
-.video-item {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 25px;
-}
-
-.video-grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.video-item iframe {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 600px;
-    height: 350px;
-    border-radius: 8px;
-    border: 2px solid #333;
-}
-
-.video-item p {
-    margin-bottom: 15px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 14px;
     color: #333;
+    font-weight: 500;
 }
 
-@media (max-width: 768px) {
-    .video-grid {
-        grid-template-columns: 1fr;
-    }
+/*==========================================
+    MEDIA QUERIES (KHUSUS TAMPILAN HP)
+========================================= */
+@media screen and (max-width: 768px) {
+
+.gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 15px;
 }
+
+.gallery-item iframe, 
+.gallery-item video {
+    height: 220px;
+}}

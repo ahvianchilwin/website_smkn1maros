@@ -13,23 +13,52 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// --- SCRIPT UNTUK MENU BAR (HP) --- \\
+// --- SCRIPT MENU & DROPDOWN (HP) --- //
 const menuToggle = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.menu');
 
-if (menuToggle) {
+if (menuToggle && navMenu) {
     menuToggle.addEventListener('click', () => {
         menuToggle.classList.toggle('active'); 
         navMenu.classList.toggle('active');    
     });
 }
 
-// --- Menutup menu saat salah satu link diklik --- \\
-const navLink = document.querySelectorAll('.menu a');
-navLink.forEach(n => n.addEventListener('click', () => {
-    menuToggle.classList.remove('active');
-    navMenu.classList.remove('active');
-}));
+const dropBtns = document.querySelectorAll('.dropbtn');
+dropBtns.forEach(btn => {
+    btn.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();    
+            e.stopPropagation();  
+            
+            const currentDropdown = this.nextElementSibling;
+            
+            const isCurrentlyOpen = currentDropdown.classList.contains('show');
+            
+            document.querySelectorAll('.dropdown-content').forEach(content => {
+                content.classList.remove('show');
+            });
+
+            if (!isCurrentlyOpen) {
+                currentDropdown.classList.add('show');
+            }
+        }
+    });
+});
+
+const regularLinks = document.querySelectorAll('.menu > a, .dropdown-content a');
+regularLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            menuToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+            
+            document.querySelectorAll('.dropdown-content').forEach(content => {
+                content.classList.remove('show');
+            });
+        }
+    });
+});
 
 // --- Foto --- \\
 const filterButtons = document.querySelectorAll('.filter-btn');

@@ -116,3 +116,24 @@
     margin: 20px;
     margin-bottom: 25px;
 }
+
+/*==========================================
+    MEDIA QUERIES (KHUSUS TAMPILAN HP)
+========================================= */
+@media screen and (max-width: 768px) {
+
+.content-sejarah {
+    padding: 10px 5%;
+    margin: 10px 5%;
+    margin-top: 50px;
+}
+
+.content-sejarah ul {
+    padding-left: 15px;
+}
+
+.content-filosofi {
+    padding: 10px 5%;
+    margin: 10px 5%;
+    margin-top: 50px;
+}}
