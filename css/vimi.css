@@ -43,6 +43,7 @@
     background-color: #f4f4f4   ;
     margin: 10px 5%;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 .visi h2 {
@@ -75,6 +76,7 @@
     margin: 10px 5%;
     margin-top: 50px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .misi h2 {
@@ -101,4 +103,22 @@
     background-color: #1e3a8a;
     margin: 20px;
     margin-bottom: 25px;
+}
+
+/*==========================================
+    MEDIA QUERIES (KHUSUS TAMPILAN HP)
+========================================= */
+@media screen and (max-width: 768px) {
+
+.visi {
+    padding: 10px 5%;
+    margin: 10px 5%;
+    margin-top: 50px;
+}
+
+.misi {
+    padding: 10px 5%;
+    margin: 10px 5%;
+    margin-top: 50px;
+}
 }
