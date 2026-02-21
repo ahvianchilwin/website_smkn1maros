@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// --- SCRIPT MENU & DROPDOWN (HP) --- //
+// --- SCRIPT MENU & DROPDOWN (HP) --- \\
 const menuToggle = document.querySelector('.menu-toggle');
 const navMenu = document.querySelector('.menu');
 
