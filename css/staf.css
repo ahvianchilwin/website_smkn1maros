@@ -1,0 +1,102 @@
+/*==========================================
+            STAF-HERO & PARALLAX
+==========================================*/
+.hero {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    text-align: center;
+    color: white;
+
+    /* --- Parallax --- */
+    background-image: url("/images/background-dark.jpeg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*==========================================
+                Staf-Content
+==========================================*/
+.staf {
+    position: relative;
+    z-index: 2; 
+    max-width: 800px;
+    padding: 20px;
+}
+
+.staf h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px; 
+    padding: 20px 0.1%; 
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    transition: transform 0.3s ease;
+    animation: fadeIn 0.5s ease; 
+}
+
+.gallery-item p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); ;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.gallery-item.hide {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/*==========================================
+    MEDIA QUERIES (KHUSUS TAMPILAN HP)
+========================================= */
+@media screen and (max-width: 768px) {
+    
+.gallery-container {
+    grid-template-columns: repeat(2, 1fr); 
+}}
